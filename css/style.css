@@ -1,0 +1,129 @@
+*{margin: 0px;padding: 0px;}
+@font-face {
+    font-family: Urban;
+    src: url(../abuse.ttf);
+  }
+header{
+    
+    width: 100%;
+    height: 5rem;
+    left: 0px;
+    top: 0px;
+  
+    background: #fffefe;
+    
+    
+}
+header h2{
+    color: url("https://www.papeiseparede.com.br/8032-large_default/papel-de-parede-albert-einstein-grafite.jpg.webp");
+    font-size: 30px;
+    vertical-align: middle;
+    float: left;
+    margin-top: 2rem;
+    text-decoration: overline underline;
+}
+#ul{float: right}
+
+#teste{
+    background-image: url("https://s5.static.brasilescola.uol.com.br/be/2022/04/parede-grafite.jpg");
+    width: 100%;
+    display: block;
+    height: 20rem;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.692);
+
+    
+}
+#form{
+    height: 17em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+#formulario{
+    background-color: rgba(170, 170, 170, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: inset 0px 5px 5px rgba(193, 15, 209, 0.692);
+    border-radius: 20px;
+    margin: 0 ;
+    height:35px;
+}
+.search-txt{
+    border-radius: 20px;
+    height:35px;
+    width: 250px;
+    border: none;
+ padding-left: 10px;
+  outline: none;
+  background-color: transparent;
+  
+  color: #fff;
+  float: left;
+}
+
+.search-txt::-webkit-input-placeholder{
+   padding-left: 1rem;
+   color: #fff;
+}
+#lupa{
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    background-color:transparent;
+    float:left;
+    border:none;
+    margin-top: 0.1rem;
+   
+   
+   
+   
+}
+#lancamento{
+    margin-top:8rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: Urban ;
+    
+}
+#lancamento h1{
+    text-align: center;
+    font-size: 5rem;
+}
+#card{
+    
+    width: 15rem;
+    float: left;
+    margin: 1rem;
+}
+
+.card-img{
+    border-radius: top  calc(0.25rem - 1px);
+    border-radius: bottom 0px;
+    
+    
+}
+#botao{
+    width: 9rem;
+   text-align: center;
+   background-color:rgb(22, 22, 22);
+   
+}
+#botaoo{
+    position: absolute;
+    z-index: 2;
+    align-items: center;
+    margin-left: 3em;
+    margin-top: 10em;
+    background-color: rgb(255, 255, 255);
+}
+#img{
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
