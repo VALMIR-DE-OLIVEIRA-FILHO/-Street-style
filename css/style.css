@@ -60,10 +60,8 @@ header  h2{
     justify-content: center
 }
 #formulario{
-    background-color: rgba(170, 170, 170, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: inset 0px 5px 5px rgba(193, 15, 209, 0.692);
+    background-color: rgb(49, 49, 49);
+    
     border-radius: 20px;
     margin: 0 ;
     height:35px;
@@ -75,9 +73,9 @@ header  h2{
     border: none;
  padding-left: 10px;
   outline: none;
-  background-color: transparent;
+  background: transparent;
   
-  color: #fff;
+  color: rgb(211, 211, 211);
   float: left;
 }
 #nome_produto{
@@ -89,7 +87,7 @@ header  h2{
 }
 .search-txt::-webkit-input-placeholder{
    padding-left: 1rem;
-   color: #fff;
+   color:  rgb(211, 211, 211);
 }
 #lupa{
     width: 35px;
@@ -105,7 +103,7 @@ header  h2{
    
 }
 #lancamento{
-    margin-top:8rem;
+    margin-top:10rem;
     text-align: center;
     margin-bottom: 3rem;
     font-family: Urban ;
@@ -132,7 +130,12 @@ header  h2{
     width: 9rem;
    text-align: center;
    background-color:rgb(22, 22, 22);
+   color:#fff
    
+}
+#botao :hover{
+    background-color: white;
+
 }
 #botaoo{
     position: absolute;
@@ -163,48 +166,52 @@ header  h2{
     text-align: center;
 
 }
-#login{
-    background-image: url('https://s5.static.brasilescola.uol.com.br/be/2022/04/parede-grafite.jpg');
-   
-}
 #card-login{
-
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    margin-top: 5rem;
-    border: 10px;
-    
-}
-#card-login h4{
-    color: #fff;
-    text-align: center;
-}
-.login-input{
+    width: 31.60rem;
+    height: 50vh;  
+  background-color: white;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  -webkit-box-shadow: 5px 5px 15px 5px #BDBDBD; 
+box-shadow: 5px 5px 15px 5px #BDBDBD;
   
+}
+
+ #login{
+      background-color: rgb(243, 243, 243);
+    }
+
+ 
+ .focus-in-expand{-webkit-animation:focus-in-expand .8s cubic-bezier(.25,.46,.45,.94) both;animation:focus-in-expand .8s cubic-bezier(.25,.46,.45,.94) both}
+ 
+
+@-webkit-keyframes focus-in-expand{0%{letter-spacing:-.5em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes focus-in-expand{0%{letter-spacing:-.5em;-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+
+#bem-vindo{
     text-align: center;
-    margin-top: 1rem;
-    border-radius: 10px;
-    box-shadow: 0;
-    
 }
-.login-input:focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
+#welcome{
+    margin-top: 15vh;
 }
-#card-login h4{
-    margin-top:2rem;
-    
+#login-{
+    padding-top: 5vh;
 }
 .btn-login{
-  
-    margin-top: 1.5rem;
-    
-    
+    background-color: rgb(44, 44, 44);
+    color: #fff;
 }
-#bot{width:300px}
-
-
-#login-btn{
-    margin-bottom: 1rem;
+#roupas-nav{
+   
+    background: rgb(245 245 245 / 44%);
+    box-shadow: inset  0px 3px 3px rgba(0, 0, 0, 0.692);
 }
+.link{
+    color: rgb(90, 90, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0.5rem;
+}
+.link:hover{
+    color: rgb(126, 47, 190);
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');

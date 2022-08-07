@@ -1,23 +1,37 @@
 <?php
 include_once './includes/head.php';
-include_once './includes/footer.php';
+
 
 
 ?>
 
 <body id="login">
-    <div id="card-login" style="width: 30rem ;" class="card container">
-     <h4> Seja Bem-vindo(a) a Urban</h4>
+  <div id="welcome" class="container ">
+<h1 id="bem-vindo"> Bem Vindo à Urban</h1>
+</div>
+<div id="card-login" class="container   ">
 
-     <form id="formulario-login" action="./consulta.php" method="post">
-        <input class="input-group-text container login-input" type="text" placeholder="Insira o seu usuário" name="nome"/>
-        <input class="input-group-text container login-input" type="text" placeholder="Insira a sua senha" name="senha"/>
-        <div id="bot" class="container" >
-        <button type="button" class="btn btn-primary container  btn-login"> Entrar</button>
-        <button id="login-btn" type="button" class="btn btn-primary container  btn-login"> Cadastrar</button>
-        </div>
-    </form>
-    </div>
+<form >
+  <div id="login-form" >
+  <div id="login-" class="form-group  ">
+    <label for="exampleInputEmail1">Endereço de email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Senha</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+  </div>
+  </div>
 
+  <div></div>
+  <button type="submit" class="btn btn-login btn-light">Entrar</button>
+  <button type="submit" class="btn btn-login btn-light">Criar Conta</button>
+  </div>
+</form>
+</div>
 
-</body>
+<?php
+
+include_once './includes/footer.php';
+?>

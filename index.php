@@ -17,6 +17,21 @@ include_once './includes/footer.php';
 </div>
 </div>
 
+<ul id="roupas-nav" class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link link" href="#">Ativo</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link  link" href="#">Desativado</a>
+  </li>
+</ul>
+
 <div id="lancamento" class="container">
     <h1>Lançamentos</h1>
 </div>
